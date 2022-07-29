@@ -55,16 +55,26 @@
 
 // alert('2を掛け続けて'+ max + 'を越えるのに必要だった回数は' + count + '回です')
 
-// do...while文
+// // do...while文
+// let max = 100;
+// let num = 1;
+// let count = 0;
 
-let max = 100;
-let num = 1;
-let count = 0;
+// do {
+//   num = num * 2;
+//   count = count +1;
+// } while(num < max)
 
-do {
-  num = num * 2;
-  count = count +1;
-} while(num < max)
+// alert('2を掛け続けて'+ max + 'を越えるのに必要だった回数は' + count + '回です(初期値が100以下の場合に限る)')
 
-alert('2を掛け続けて'+ max + 'を越えるのに必要だった回数は' + count + '回です(初期値が100以下の場合に限る)')
+
+// for文
+let i;
+let num = 0;
+
+for(i = 1; i < 11 ; i++) {
+  num = num +i;
+}
+
+alert('1から10まで足し算した結果は' + num + 'です');
 
