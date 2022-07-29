@@ -68,13 +68,23 @@
 // alert('2を掛け続けて'+ max + 'を越えるのに必要だった回数は' + count + '回です(初期値が100以下の場合に限る)')
 
 
-// for文
-let i;
-let num = 0;
+// // for文
+// let i;
+// let num = 0;
 
-for(i = 1; i < 11 ; i++) {
-  num = num +i;
-}
+// for(i = 1; i < 11 ; i++) {
+//   num = num +i;
+// }
 
-alert('1から10まで足し算した結果は' + num + 'です');
+// alert('1から10まで足し算した結果は' + num + 'です');
+
+
+// 確認問題（四則演算の式と結果をアラートウィンドウに表示）
+let num1 = 3
+let num2 = 5
+
+alert(num1 + '+' + num2 + '=' + (num1 + num2) );
+alert(num1 + '-' + num2 + '=' + (num1 - num2) );
+alert(num1 + '️x' + num2 + '=' + (num1 * num2) );
+alert(num1 + '/' + num2 + '=' + (num1 / num2) );
 
