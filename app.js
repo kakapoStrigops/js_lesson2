@@ -42,16 +42,29 @@
 // }
 
 
-// 繰り返し処理
-// while文
+// // 繰り返し処理
+// // while文
+// let max = 100;
+// let num = 1;
+// let count = 0;
+
+// while(num < max){
+//   num = num * 2;
+//   count = count +1;
+// }
+
+// alert('2を掛け続けて'+ max + 'を越えるのに必要だった回数は' + count + '回です')
+
+// do...while文
+
 let max = 100;
 let num = 1;
 let count = 0;
 
-while(num < max){
+do {
   num = num * 2;
   count = count +1;
-}
+} while(num < max)
 
-alert('2を掛け続けて'+ max + 'を越えるのに必要だった回数は' + count + '回です')
+alert('2を掛け続けて'+ max + 'を越えるのに必要だった回数は' + count + '回です(初期値が100以下の場合に限る)')
 
